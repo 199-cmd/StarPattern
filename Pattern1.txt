@@ -1,0 +1,20 @@
+'''
+    Print this pattern
+    *
+    * *
+    * * *
+    * * * *
+    * * * * *
+    * * * * * *
+'''
+num=int(input("Enter the term that you want"))
+for i in range(0,num):
+    for j in range(0,num):
+        if j<=i:
+            print("*",end="")
+        else:
+            print("",end="")
+    print()
+
+            
+
